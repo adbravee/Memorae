@@ -97,7 +97,7 @@ export default function Demo() {
                 <h3 className="font-display text-2xl font-bold mb-2 text-white">
                   Processing Memory...
                 </h3>
-                <p className="text-gray-400 italic">"{memoryText}"</p>
+                <p className="text-gray-400 italic">&quot;{memoryText}&quot;</p>
               </div>
 
               <div className="space-y-4">
