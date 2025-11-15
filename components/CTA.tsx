@@ -160,7 +160,7 @@ export default function CTA() {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-gray-300 mb-4"
               >
-                You said: <span className="text-neon-cyan font-semibold">"{transcript}"</span>
+                You said: <span className="text-neon-cyan font-semibold">&quot;{transcript}&quot;</span>
               </motion.p>
             )}
 

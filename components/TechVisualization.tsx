@@ -83,17 +83,16 @@ function ConnectionLine({
   end: [number, number, number]
   color: string
 }) {
-  const ref = useRef<THREE.Line>(null)
+  const materialRef = useRef<THREE.LineBasicMaterial>(null)
 
   useFrame(() => {
-    if (ref.current) {
-      const material = ref.current.material as THREE.LineBasicMaterial
-      material.opacity = 0.2 + Math.sin(Date.now() * 0.001) * 0.1
+    if (materialRef.current) {
+      materialRef.current.opacity = 0.2 + Math.sin(Date.now() * 0.001) * 0.1
     }
   })
 
   return (
-    <line ref={ref}>
+    <line>
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
@@ -102,7 +101,7 @@ function ConnectionLine({
           itemSize={3}
         />
       </bufferGeometry>
-      <lineBasicMaterial color={color} transparent opacity={0.3} />
+      <lineBasicMaterial ref={materialRef} color={color} transparent opacity={0.3} />
     </line>
   )
 }

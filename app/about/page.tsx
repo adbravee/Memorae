@@ -52,7 +52,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl text-gray-300 leading-relaxed"
           >
-            We're revolutionizing how humans interact with their memories through
+            We&apos;re revolutionizing how humans interact with their memories through
             cutting-edge AI technology. Our mission is to make memory management
             intelligent, intuitive, and accessible to everyone.
           </motion.p>

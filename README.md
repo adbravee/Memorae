@@ -176,6 +176,24 @@ Modify `NeuronNetwork.tsx` and `TechVisualization.tsx` to customize 3D scenes.
 - [ ] Enhanced voice commands
 - [ ] Real-time collaboration features
 
+## 🎨 Design Files
+
+### Figma Design System
+
+Complete design specifications and setup guides are available:
+
+- **[FIGMA_DESIGN_SYSTEM.md](./FIGMA_DESIGN_SYSTEM.md)** - Complete design tokens, components, and specifications
+- **[FIGMA_QUICK_SETUP.md](./FIGMA_QUICK_SETUP.md)** - Quick 30-minute setup guide
+
+**To create the Figma file:**
+1. Follow the setup guide in `FIGMA_QUICK_SETUP.md`
+2. Use design tokens from `FIGMA_DESIGN_SYSTEM.md`
+3. Share the Figma file and add the link here
+
+**Figma Design File Link:** [Add your Figma link here after creation]
+
+*Note: This project was built directly in code. The design system document contains all specifications needed to recreate it in Figma.*
+
 ## 📄 License
 
 This project is created for demonstration purposes.
@@ -188,4 +206,3 @@ Built with ❤️ using Next.js, Three.js, and modern web technologies.
 
 **Experience the future of memory management. Welcome to Memorae.**
 
-#
